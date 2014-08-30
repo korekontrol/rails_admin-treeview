@@ -1,6 +1,6 @@
 module RailsAdmin
   module Config
-    class Model < RailsAdmin::Config::Base
+    class Model < RailsAdmin::Config::Actions::Base
       register_instance_option(:treeview) do
         false
       end
